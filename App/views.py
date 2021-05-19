@@ -10,3 +10,6 @@ def jquery8_2(request):
 
 def jquery8_3(request):
     return render(request,"jquery8-3.html")
+
+def jquery8_4(request):
+    return render(request,"jquery8-4.html")

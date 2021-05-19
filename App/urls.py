@@ -7,5 +7,6 @@ app_name = "App"
 
 urlpatterns = [
     #path("", views.jquery8_2, name="jquery8_2"),
-    path("", views.jquery8_3, name="jquery8_3"),
+    #path("", views.jquery8_3, name="jquery8_3"),
+    path("", views.jquery8_4, name="jquery8_4"),
 ]

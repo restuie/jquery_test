@@ -1,13 +1,10 @@
 $(document).ready(function () {
     $(".buybtn").click(
-        function(){
-            
+        function(){      
             //$(".buybtn").text("已經購買");
             //$(".buybtn").addClass("buyed")
             $(this).text("已經購買");
             $(this).addClass("buyed");
-
-
         }
     );
     $(".selbtn").click(
@@ -40,4 +37,11 @@ $(document).ready(function () {
             $(".timerbox").css("background-color","red");
         }
         ,5000);
+    nowtime = 0;
+    setInterval(
+        function(){
+            nowtime = nowtime +1;
+            $(".countbox").text("已經經過"+nowtime+"秒");
+        }
+    ,1000);
 });
