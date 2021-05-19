@@ -1,0 +1,18 @@
+body{
+    font-family: 微軟正黑體;
+    letter-spacing: 1px;
+}
+.buybtn,.selbtn{
+    border:solid 2px;
+    display: inline-block;
+    padding: 10px 20px;
+    transition-duration: 1s;
+    cursor: pointer;
+    
+}
+.buyed{
+    border: solid 2px black;
+    background-color: #f24;
+    color: white;
+    transition-duration: 1s;
+}

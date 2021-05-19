@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        jquery8-3
+    </title>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelementplayer.min.css"
+        rel="stylesheet" />
+    <!--link href="{% static './mycss.css' %}" rel="stylesheet" /-->
+    <link rel="stylesheet" href="../static/jquery8-3.css">
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelement-and-player.min.js">
+    </script>
+    <!--script src="{% static './myjs.js' %}"-->
+    <script src='../static/jquery8-3.js'></script>
+</head>
+
+<body>
+    <h1>jquery 初階滑鼠事件click/hover</h1>
+    <!--button type="text" value="點擊購買" class="buybtn"-->
+    <h3>點擊觸發，與紀錄購買狀態</h3>
+    <div class="buybtn">點擊購買</div>
+    <div class="buybtn">點擊購買</div>
+    <hr>
+    <h3>$(this)操作觸發動作的按鍵：請選擇物品</h3>
+    <div class="selbtn" data-cata="tree">選擇物品一</div>
+    <div class="selbtn" data-cata="flower">選擇物品二</div>
+    <div class="selbtn" data-cata="sea">選擇物品三</div>
+    <h4 class="show_info">以選擇物品：無</h4>
+    <h4 class="show_cata">以選擇總類</h4>
+    <hr>
+    <h3>滑鼠移入移出變更顏色</h3>
+    <div class="buybtn mbtn">使用者移入了嗎?</div>
+    <hr>
+    <h3>時間相關觸發</h3>
+    
+    
+    <div class="selbtn timerbox">五秒後這裡會移動且變色</div>
+
+</body>
+
+</html>
